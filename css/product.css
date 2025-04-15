@@ -1,0 +1,261 @@
+/*сброс стилей*/
+*{
+    margin: 0;
+    padding: 0;
+}
+button, input{
+    border: none;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+main{
+    background-color: rgb(255, 255, 255);
+}
+/*хеадер*/
+header{
+    max-height: 80px;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.nav_icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+nav ul a{
+    color: #726E8D;
+    font-size: 22px;
+}
+nav h2{
+    font-size: 20px;
+}
+/*мейн*/
+main{
+    background-color: rgb(249, 249, 249);
+}
+/*1 секция*/
+.product{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    gap: 60px;
+}
+.product_details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.top_text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.top_text h2{
+    font-weight: 400;
+    color: #2A254B;
+    font-size: 24px;
+}
+.top_text span{
+    color: #2A254B;
+    font-size: 24px;
+}
+
+.line_gorizontal{
+    border: 1px solid rgb(235, 232, 244);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.description{
+    width: 450px;
+    margin-bottom: 22px;
+}
+.description h2{
+    color: #2A254B;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+.description p{
+    font-size: 16px;
+    color: #2A254B;
+}
+
+.dimensions{
+    width: 324px;
+}
+.dimensions h2{
+    color: #2A254B;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.dimensions_details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.line_vertical{
+    display: flex;
+    height: 44px;
+    flex-direction: column;
+    border: 1px solid rgb(235, 232, 244);
+    margin: auto 0;
+}
+.dimensions .details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.dimensions .details span{
+    font-size: 20px;
+    color: #2A254B;
+}
+.quantitity{
+    margin-top: 10px;
+    width: 122px;
+}
+.quantitity h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2A254B;
+}
+
+.stepper{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 16px 12px 16px;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    margin-bottom: 28px;
+}
+.stepper .scroll{
+    color: rgb(235, 232, 244);
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto 0;
+}
+.stepper .number{
+    color: rgb(42, 37, 75);
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.button_first{
+    background-color: rgb(42, 37, 75);
+    padding: 16px 32px 16px 32px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: background-color 0.6s ease;
+}
+.button_first:hover{
+    background: rgb(30, 25, 62);
+}
+.button_second{
+    padding: 16px 32px 16px 32px;
+    font-size: 20px;
+    color: rgb(42, 37, 75);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.6s ease;
+}
+.button_second:hover{
+    background: transparent;
+}
+/*футер*/
+footer{
+    background-color: #2A254B;
+    padding: 80px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item a{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.items h2{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.input_text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+.input_text input{
+    padding: 20px 250px 20px 20px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    color: rgb(255, 255, 255);
+}
+.input_text input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input_text button{
+    padding: 20px;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(42, 37, 75);
+}
+.border{
+    margin-top: 60px;
+    border: 1px solid;
+    color: #4E4D93;
+}
+.footer_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer_text span{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.footer_icon{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
