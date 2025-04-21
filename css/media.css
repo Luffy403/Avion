@@ -1,0 +1,82 @@
+@media (max-width: 400px){
+    nav{
+        justify-content: space-between;
+        padding: 20px 24px;
+    }
+    nav ul{
+        display: none;
+    }
+    .last_icon{
+        display: block;
+    }
+
+    .hero_blocks{
+        padding: 0;
+        margin: 0;
+    }
+    .hero_blocks img{
+        display: none;
+    }
+    .content{
+        padding: 40px 24px 45px 24px;
+    }
+    .top_content h1{
+        font-size: 20px;
+    }
+    .text_content{
+        max-width:390px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+    .text_content p{
+        font-size: 16px;
+    }
+    .top_content button{
+        display: none;
+    }
+    .text_content button{
+        display: block;
+        background: rgba(249, 249, 249, 0.15);
+        color: #F9F9F9;
+        transition:  background-color 0.5s ease;
+        padding: 16px 32px;
+    }
+    .text_content button:hover{
+        background: rgba(249, 249, 249, 0.3); 
+    }
+
+    .listings{
+        padding: 48px 24px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .listings h2{
+        font-size: 20px;
+    }
+    .cards{
+        max-width: 400px;
+        width: 100%;
+        gap: 40px;
+    }
+    .cards img{
+        width: 163px;
+        height: 212px;
+    }
+    .card .details span{
+        font-size: 16px;
+    }
+    .listings button{
+        margin: 29px 24px 0 24px;
+    }
+
+
+    .features{
+        
+    }
+    .features img{
+        display: none;
+    }
+}
