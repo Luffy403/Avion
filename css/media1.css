@@ -1,0 +1,87 @@
+@media (max-width: 400px){
+    /*хеадер*/
+    nav{
+        justify-content: space-between;
+        padding: 20px 24px;
+    }
+    nav ul{
+        display: none;
+    }
+    .last_icon{
+        display: block;
+    }
+    /*1 секция*/
+    .product{
+        padding: 0;
+        gap: 30px;
+    }
+    .product img{
+        max-width: 400px;
+        width: 100%;
+    }
+    .product_details{
+        padding: 20px;
+    }
+    .top_text{
+        max-width: 146px;
+        width: 100%;
+    }
+    .line_gorizontal{
+        max-width: 342px;
+        width: 100%;
+    }
+    .description{
+        max-width: 342px;
+        width: 100%;
+    }
+    .quantitity{
+        max-width: 342px;
+        width: 100%;
+    }
+    .stepper{
+        margin: 10px auto 20px auto;
+    }
+    .product h2{
+        font-size: 20px;
+    }
+    .product span{
+        font-size: 20px;
+    }
+    .dimensions_details .details span{
+        font-size: 16px;
+    }
+    .buttons{
+        flex-direction: column;
+        max-width: 342px;
+        width: 100%;
+    }
+    /*футер*/
+    footer{
+        padding: 40px 25px 20px 25px;
+    }
+    .items{
+        gap: 40px;
+    }
+    .item{
+        margin-right: 24px;
+    }
+    .input_text input{
+        padding: 17px 29px 15px 32px;
+        max-width: 211px;
+        width: 100%;
+    }
+    .input_text button{
+        padding: 16px 30px;
+        max-width: 131px;
+        width: 100%;
+    }
+    .border{
+        margin-top: 10px;
+    }
+    .footer_text{
+        justify-content: center;
+    }
+    .footer_icon{
+        display: none;
+    }
+}

@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 button, input{
     border: none;
@@ -48,6 +49,9 @@ nav ul a{
 nav h2{
     font-size: 20px;
 }
+.last_icon{
+    display: none;
+}
 /*мейн*/
 main{
     background-color: rgb(249, 249, 249);
@@ -56,6 +60,7 @@ main{
 .product{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 80px;
     gap: 60px;
 }
@@ -86,6 +91,7 @@ main{
 }
 
 .description{
+    max-width: 450px;
     width: 450px;
     margin-bottom: 22px;
 }
@@ -134,7 +140,8 @@ main{
 }
 .quantitity{
     margin-top: 10px;
-    width: 122px;
+    max-width: 122px;
+    width: 100%;
 }
 .quantitity h2{
     margin-bottom: 12px;

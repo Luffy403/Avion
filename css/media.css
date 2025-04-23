@@ -1,4 +1,5 @@
 @media (max-width: 400px){
+    /*хеадер*/
     nav{
         justify-content: space-between;
         padding: 20px 24px;
@@ -9,7 +10,7 @@
     .last_icon{
         display: block;
     }
-
+    /*1 секция*/
     .hero_blocks{
         padding: 0;
         margin: 0;
@@ -47,7 +48,7 @@
     .text_content button:hover{
         background: rgba(249, 249, 249, 0.3); 
     }
-
+    /*2 секция*/
     .listings{
         padding: 48px 24px;
         max-width: 400px;
@@ -55,11 +56,12 @@
     }
     .listings h2{
         font-size: 20px;
+        width: 130px;
     }
     .cards{
-        max-width: 400px;
+        max-width: 343px;
         width: 100%;
-        gap: 40px;
+        gap: 16px;
     }
     .cards img{
         width: 163px;
@@ -71,12 +73,45 @@
     .listings button{
         margin: 29px 24px 0 24px;
     }
-
-
+    /*3 секция*/
     .features{
-        
+        flex-direction: column;
     }
-    .features img{
+    .features .left_content{
+        padding: 48px 24px 34px 24px;
+        gap: 55px;
+    }
+    .left_content button{
+        width: 342px;
+        margin: auto;
+    }
+    /*футер*/
+    footer{
+        padding: 40px 25px 20px 25px;
+    }
+    .items{
+        gap: 40px;
+    }
+    .item{
+        margin-right: 24px;
+    }
+    .input_text input{
+        padding: 17px 29px 15px 32px;
+        max-width: 211px;
+        width: 100%;
+    }
+    .input_text button{
+        padding: 16px 30px;
+        max-width: 131px;
+        width: 100%;
+    }
+    .border{
+        margin-top: 10px;
+    }
+    .footer_text{
+        justify-content: center;
+    }
+    .footer_icon{
         display: none;
     }
 }
